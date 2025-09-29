@@ -195,19 +195,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
-
- const menuBtn = document.querySelector('.menu-toggle');
-  const sideNav = document.querySelector('.side-nav');
-
-  menuBtn.addEventListener('click', () => {
-    sideNav.classList.toggle('open');
-  });
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("fade-in");
 });
